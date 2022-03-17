@@ -3,11 +3,11 @@ pipeline {
     stages{
         stage("Build"){
             steps{
-                echo "Welcome toi BUil;d stage"
+                echo "Welcome toi BUild stage"
             }
         }
         stage("Test"){
-            step{
+            steps{
               echo "Welcome to Test stage."  
             }
         }
